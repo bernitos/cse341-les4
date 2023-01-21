@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Koffi",
+    "lastName": "Odilor",
+    "email": "somorvi@test.com",
+    "favoriteColor": "white",
+    "birthday": "01/12/1985"
+  },
+  {
+    "firstName": "Djomo",
+    "lastName": "Anicet",
+    "email": "danicet@test.com",
+    "favoriteColor": "yellow",
+    "birthday": "04/05/1987"
+  },
+  {
+    "firstName": "Antonin",
+    "lastName": "Aka",
+    "email": "antoninak@test.com",
+    "favoriteColor": "green",
+    "birthday": "02/15/1979"
+  }
+]
