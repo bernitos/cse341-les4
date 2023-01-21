@@ -1,0 +1,22 @@
+// LOCALHOST
+###
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/63cbb002a8c8ee2727aa2c16
+###
+GET http://localhost:8080/contacts/63cbb002a8c8ee2727aa2c16
+###
+GET http://localhost:8080/contacts/63cbb002a8c8ee2727aa2c16
+
+//connection for render
+
+###
+GET https://cse341-les2.onrender.com/contacts
+
+###
+GET http://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
+
+###
+GET http://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
+###
+GET http://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
