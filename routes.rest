@@ -1,22 +1,50 @@
-// LOCALHOST
-###
+// LOCALHOST 
+### 
 GET http://localhost:8080/contacts
-###
-GET http://localhost:8080/contacts/63cbb002a8c8ee2727aa2c16
-###
-GET http://localhost:8080/contacts/63cbb002a8c8ee2727aa2c16
-###
+
+### 
 GET http://localhost:8080/contacts/63cbb002a8c8ee2727aa2c16
 
-//connection for render
+### 
+POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Koffi", "lastName":"Odilor", "email":"somorvi@test.com", "favoriteColor":"White", "birthday":"01/12/1985"
+}
+### 
+PUT http://localhost:8080/contacts/63cbb0f9a8c8ee2727aa2c17 HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Djomo", "lastName":"Anicet", "email":"danicet@test.com", "favoriteColor":"yellow", "birthday":"04/05/1987"
+} 
+
+###  
+DELETE http://localhost:8080/contacts/63cbb1f0a8c8ee2727aa2c18 HTTP/1.1
+
+
+
+// For Render 
+
+
+GET https://cse341-les2.onrender.com/contacts   
+
+### 
+
+GET https://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
+
+### 
+POST https://cse341-les2.onrender.com/contacts HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Koffi", "lastName":"Odilor", "email":"somorvi@test.com", "favoriteColor":"White", "birthday":"01/12/1985"
+}
 
 ###
-GET https://cse341-les2.onrender.com/contacts
+PUT https://cse341-les2.onrender.com/contacts/63cbb0f9a8c8ee2727aa2c17 HTTP/1.1 content-type: application/json
 
-###
-GET http://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
+{
+"firstName":"Djomo", "lastName":"Anicet", "email":"danicet@test.com", "favoriteColor":"pink", "birthday":"04/05/1987"
+} 
 
-###
-GET http://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
-###
-GET http://cse341-les2.onrender.com/contacts/63cbb002a8c8ee2727aa2c16
+### 
+DELETE https://cse341-les2.onrender.com/contacts/63cbb1f0a8c8ee2727aa2c18 HTTP/1.1
